@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   snake:
-    image: 'sophia329/snake-game:latest'
+    image: 'sophia329/real-estate-web2:latest'
     environment:
       - "PORT:3000"
     ports:
