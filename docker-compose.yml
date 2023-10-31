@@ -4,7 +4,6 @@ services:
     image: 'sophia329/real-estate-web2:latest'
     environment:
       - "PORT:3000"
-    container_name: real-estate-web2
     ports:
       - "82:82"
     volumes:
