@@ -11,7 +11,7 @@ node('appserver-cweb')
   stage('Build-and-Tag')
   {
     /*This builds the actual image; same as docker build on cmd*/
-    app =docker.build("sophia329/real-estate-web2")
+    app = docker.build("sophia329/real-estate-web2")
   }
 
   stage('Post-to-dockerhub')
