@@ -8,4 +8,4 @@ services:
     ports:
       - "82:82"
     volumes:
-      - ./:/app
+      - .:/usr/local/apache2/htdocs
