@@ -6,6 +6,6 @@ services:
       - "PORT:3000"
     container_name: real-estate-web2
     ports:
-      - "80:80"
+      - "82:82"
     volumes:
       - .:/usr/local/apache2/htdocs
